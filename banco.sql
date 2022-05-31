@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `categorias` (
   `data_cad` datetime DEFAULT NULL,
   `ativo` char(2) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id_categoria`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Copiando dados para a tabela typejuggling.categorias: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `categorias` DISABLE KEYS */;
@@ -64,7 +64,7 @@ CREATE TABLE IF NOT EXISTS `noticias` (
   `destaque` char(2) NOT NULL DEFAULT '0',
   `ativo` char(2) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id_noticia`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Copiando dados para a tabela typejuggling.noticias: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `noticias` DISABLE KEYS */;

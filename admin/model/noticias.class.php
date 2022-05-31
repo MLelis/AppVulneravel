@@ -169,7 +169,7 @@ class Noticias {
 		
 			// if($extensao == "gif" || $extensao == "GIF" || $extensao == "png" || $extensao == "PNG" || $extensao == "jpg" || $extensao == "JPG" || $extensao == "jpeg" || $extensao == "JPEG"){
 			if($extensao != "php" && $extensao != "py" && $extensao != "asp" && $extensao != "sh" && $extensao != "js"){
-				echo $extensao;exit;
+				
 				$caminho = $_SERVER["DOCUMENT_ROOT"].'files/noticias/'.$this->idnoticia;
 		        mkdir($caminho);
 		        $folder	= $caminho;

@@ -70,7 +70,7 @@
 	                      <td><?php echo utf8_encode($usuario['email']); ?></td>
 	                      <td><?php echo $tipoUsuario[$usuario['is_admin']]; ?></td>
                           <td><?php echo $situacao[$usuario['ativo']]; ?></td>
-	                      <td><a href="<?php echo $urlSite.'/usuarios-cadastrar/'.$usuario['id'];?>/editar">Editar</a> | <a href="<?php echo $urlSite.'/usuarios-cadastrar/'.$usuario['id'];?>/excluir" onclick="return confirm('Deseja excluir o usuario: <?php echo $usuario['username']; ?> ?')">Excluir</a></td>
+	                      <td><a href="<?php echo $urlSite.'/usuarios-cadastrar/'.$usuario['id'];?>/editar">EXPORTAR PDF</a></td>
 	                    </tr>
                     <?php } ?>
                     <?php
@@ -78,7 +78,7 @@
                     ?>
                     <tr>
                     <form action="" method="POST">
-                      <input class="form-control" type="text" name="adminkey" placeholder="Admin Key" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength=12>
+                      <input class="form-control" type="text" name="adminkey" placeholder="Admin Key" maxlength=9>
                       <center><button type="submit" class="btn btn-primary">Acessar</button></center>
                     </form>
                     </tr>

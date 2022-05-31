@@ -66,7 +66,7 @@
           </li>
           
           
-            <li class="nav-header">USUÁRIOS</li>
+            <li class="nav-header">RELATÓRIO DE USUÁRIOS</li>
             <!-- <li class="nav-item">
               <a href="<?php //echo $urlSite;?>/usuarios-cadastrar" class="nav-link">
                 <i class="nav-icon fas fa-plus-circle"></i>

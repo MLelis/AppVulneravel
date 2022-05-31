@@ -6,7 +6,7 @@
 RewriteEngine On
 RewriteRule !.(\.gif|\.jpg|\.png|\.swf|\.xml)$   index.php
 
-RewriteCond %{HTTP_HOST} ^agileinline\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.agileinline\.com$
-RewriteRule ^/?$ "http\:\/\/www\.agileinline\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^ec2-18-234-218-202.compute-1.amazonaws/\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ec2-18-234-218-202.compute-1.amazonaws\.com$
+RewriteRule ^/?$ "http\:\/\/www\.ec2-18-234-218-202.compute-1.amazonaws\.com\/" [R=301,L]
 

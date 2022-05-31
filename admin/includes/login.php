@@ -33,8 +33,8 @@ if($opLogin == "sair"){
 			FROM
 				 admin a
 			WHERE a.email = '$email' AND a.password = '$senha'";
+	// echo $sql;exit;
 	
-	echo $sql;exit;
 	$result = mysqli_query($conexao, $sql); 
 	$num_results = mysqli_num_rows($result);
 	
