@@ -15,7 +15,7 @@ $urlreservada["categorias-pesquisar"] = 'categorias.pesquisar.php';
 $urlreservada["noticias-cadastrar"] = 'noticias.cadastrar.php';
 $urlreservada["noticias-pesquisar"] = 'noticias.pesquisar.php';
 $urlreservada["usuarios-pesquisar"] = 'usuarios.pesquisar.php';
-$urlreservada["usuarios-cadastrar"] = 'usuarios.cadastrar.php';
+$urlreservada["usuarios-editar"] = 'usuarios.editar.php';
 
 
 

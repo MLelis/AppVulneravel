@@ -49,6 +49,7 @@ if($opLogin == "sair"){
 	$_SESSION['id_admin'] = $row['id'];
 	$_SESSION["usuario"] = $row["username"];
 	$_SESSION["is_admin"] = $row["is_admin"];
+	$_SESSION["email"] = $row["email"];
 
 	$opLogin = "logado";
 	

@@ -84,7 +84,15 @@
               </a>
             </li>
           
-         
+            <li class="nav-header">PERFIL</li>
+          <li class="nav-item">
+            <a href="<?php echo $urlSite;?>/usuarios-editar" class="nav-link">
+              <i class="nav-icon fab fas fa-users"></i>
+              <p>
+                ALTERAR
+              </p>
+            </a>
+          </li>
           <li class="nav-header">DESLOGAR</li>
           <li class="nav-item">
             <a href="<?php echo $urlSite;?>/login/sair" class="nav-link">
