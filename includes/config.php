@@ -27,7 +27,7 @@ date_default_timezone_set('America/Fortaleza');
       // CONECTA COM BANCO
       $servidor = "localhost";
       $user = "root";
-      $senha = "4123612";
+      $senha = "1234567890";
       $db = "typejuggling";
 
       $conexao = mysqli_connect($servidor,$user,$senha) or die(include("ops.php"));
